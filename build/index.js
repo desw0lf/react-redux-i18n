@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.i18nReducer = exports.loadTranslations = exports.setLocale = exports.LOAD_TRANSLATIONS = exports.SET_LOCALE = exports.forceComponentsUpdate = exports.setLocaleGetter = exports.setTranslationsGetter = exports.Localize = exports.Translate = exports.I18n = undefined;
+exports.i18nReducer = exports.loadTranslations = exports.setLocale = exports.LOAD_TRANSLATIONS = exports.SET_LOCALE = exports.forceComponentsUpdate = exports.setLocaleGetter = exports.setTranslationsGetter = exports.Localize = exports.Translate = exports.l = exports.t = exports.I18n = undefined;
 
 var _actions = require('./actions');
 
@@ -47,6 +47,8 @@ var _reactI18nify = require('react-i18nify');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.I18n = _reactI18nify.I18n;
+exports.t = _reactI18nify.t;
+exports.l = _reactI18nify.l;
 exports.Translate = _reactI18nify.Translate;
 exports.Localize = _reactI18nify.Localize;
 exports.setTranslationsGetter = _reactI18nify.setTranslationsGetter;

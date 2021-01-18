@@ -1,6 +1,7 @@
 import { I18n, t, l, Translate, Localize, setTranslationsGetter, setLocaleGetter, forceComponentsUpdate } from 'react-i18nify';
 
-export { I18n, t, l,  Translate, Localize, setTranslationsGetter, setLocaleGetter, forceComponentsUpdate };
+export { I18n, t, l, Translate, Localize,
+  setTranslationsGetter, setLocaleGetter, forceComponentsUpdate };
 
 export {
   SET_LOCALE,
